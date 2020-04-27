@@ -1,3 +1,4 @@
+//cash the variables
 let bill = document.getElementById("tipBill");
 let servicePeople = document.getElementById("servPeople");
 let numPeople = document.getElementById("tipPeople");
@@ -33,7 +34,7 @@ class TipBill {
         else {
             this.clacTip();
             document.getElementById("result").style.display="block";
-            //this.clearData();  
+             
             }
             
         }

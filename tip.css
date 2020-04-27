@@ -1,7 +1,8 @@
-/* General Styling */
+/* style of the body */
 body{
     background: #db7093;
 }
+/*style of the container*/
 .container{
     max-width: 400px;
     border: 2px solid #c71585;
@@ -11,6 +12,7 @@ body{
     background-color: #c71585;
 
 }
+/*style of the tip_calculator h1*/
 .Tip_calcultor h1{
     text-align: center;
     padding: 20px;
@@ -62,6 +64,7 @@ body{
 }
 span{color:#fff; }
 /* end style of add btn*/
+/*style of the result*/
 #result {
     text-align: center;
     width: 33%;
@@ -69,7 +72,8 @@ span{color:#fff; }
     color: white;
     margin: auto;
 }
-
+/*end style of result*/
+/*style of the data_input input*/
 .data_input input{
     padding: 10px 10px;
     
