@@ -1,0 +1,77 @@
+/* General Styling */
+body{
+    background: #db7093;
+}
+.container{
+    max-width: 400px;
+    border: 2px solid #c71585;
+    border-radius: 10px;
+      
+    margin: auto;
+    background-color: #c71585;
+
+}
+.Tip_calcultor h1{
+    text-align: center;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-family:  cursive;
+}
+/* style of label*/
+.tip_label{
+    padding: 15px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+/*start style of input*/
+.data_input1  , .data_input2 ,  .data_input3{
+    text-align: center;
+}
+.data_input1 input , .data_input3 input {
+    
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+}
+.data_input2 select{
+   padding: 10px 10px;
+    border: none;
+    border-radius: 5px; 
+}
+/* end style of input*/
+
+/* start style of add btn*/
+.tipclac_btn{
+    text-align: center;
+    margin: 25px;
+}
+.tipclac_btn button{
+    background-color:#da70d6;
+    color: white;
+   padding: 10px 20px; 
+    border: none;
+   border-radius: 5px; 
+    transition: all 1s;
+}
+.tipclac_btn button:hover{
+
+    background-color: #ee82ee; 
+}
+span{color:#fff; }
+/* end style of add btn*/
+#result {
+    text-align: center;
+    width: 33%;
+    height: 50px;
+    color: white;
+    margin: auto;
+}
+
+.data_input input{
+    padding: 10px 10px;
+    
+    border-radius: 20px;
+}
